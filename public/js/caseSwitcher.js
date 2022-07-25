@@ -1,7 +1,4 @@
 
-
-
-
 const btn = document.getElementById('quiet-btn')
 btn.addEventListener('click', function() {
     text=document.getElementById('patrick')
@@ -17,7 +14,7 @@ btn2.addEventListener('click',function(){
 const btn3=document.getElementById('sarc-btn')
 btn3.addEventListener('click',function(){
     text=document.getElementById('patrick')
-    counter=1
+    counter=0
     str=''
     for(each in text.innerText){
         if(text.innerText[each] === ' '){

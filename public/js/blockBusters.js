@@ -2,7 +2,7 @@
 
 
 const texts = document.getElementById('blocks')
-for(i=2;i<100;i++){
+for(i=2;i<101;i++){
   const  text=document.createElement('div')
     text.setAttribute("id", 'block-'+i)
     text.setAttribute("class",'red-block')
